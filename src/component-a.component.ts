@@ -8,14 +8,6 @@ import { CustomerFacadeService } from './customer-facade.service';
   <div *ngIf="customerFacade.cart$ | async as data">Cart data in component A:
     {{ data | json }}
   </div>
-
-  <div *ngIf="customerFacade.cart$ | async as data">Cart data in component A:
-    {{ data | json }}
-  </div>
-
-  <div *ngIf="customerFacade.cart$ | async as data">Cart data in component A:
-    {{ data | json }}
-  </div>
   `,
   styles: [`
   :host {

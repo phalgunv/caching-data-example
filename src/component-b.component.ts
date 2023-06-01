@@ -5,7 +5,7 @@ import { CustomerFacadeService } from './customer-facade.service';
 @Component({
   selector: 'app-component-b',
   template: `
-  <div *ngIf="customerFacade.cart$ | async as data">Cart data in component A:
+  <div *ngIf="customerFacade.cart$ | async as data">Cart data in component B:
     {{ data | json }}
   </div>
   `,
